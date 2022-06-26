@@ -6,4 +6,4 @@ In this paper, we propose an approach based on a pre-trained language model name
 ### Method:
 We used a balanced dataset of 3,328 labeled PRs collected from 26 popular GitHub projects. This data is fed into the BERT model in order to learn the contextual relationships between the words used in the PR pairs. Then, the BERT's outputs are fed into a  Multilayer Perceptron (MLP) classifier, which represents our base duplicate PRs detector.
 ### Results:
-The evaluation showed that BERT model provided the best performance and achieved an accuracy of 92% with MLP classifier. Results have proven that BERT’s word representation features achieved  13% (resp., 17% and 23%) better compared to Siamese-BERT model (resp., Dual-Channel Convolutional Neural Network and Word2Vec) in term of accuracy.
+The evaluation showed that BERT model provided the best performance and achieved an accuracy of 92% with MLP classifier. Results have proven that BERT’s word representation features achieved  13% (resp., 17% and 23%) better compared to Siamese-BERT model (resp., Dual-Channel Convolutional Neural Network and Word2Vec) in term of accuracy...
